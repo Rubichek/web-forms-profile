@@ -1,0 +1,160 @@
+.container {
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1 {
+    color: #1C1C1C;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.name,
+.email,
+.zip,
+.phone {
+    color: #545454;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 245px;
+    height: 38px;
+}
+
+.form-text {
+    display: block;
+    color: #969696;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 12px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.gender-text {
+    color: #545454;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.locations {
+    color: #545454;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.locations-select {
+    color: #545454;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    background: #007BFF;
+    font-size: 15px; 
+    font-family: Roboto; 
+    font-weight: 500; 
+    line-height: 22px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+select {
+    width: 245px;
+    height: 38px;
+    padding-right: 30px;
+    background-image: url('../images/icon.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px 20px; 
+    appearance: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    outline: none; /* убирает стандартную подсветку */
+    border-color: #007BFF; /* цвет рамки */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* синий эффект тени */
+    background-color: #f0f8ff; /* светлый синий фон */
+}
+
+.file-upload {
+    width: 138px;
+    height: 30px;
+    border: 1px #E4E4E4 solid;
+    border-radius: 6px;
+    position: relative;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+.camera-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/photo-camera.svg'); /* Add your camera icon image URL here */
+    background-size: cover;
+    cursor: pointer;
+}
+
+.text-up {
+    color: #969696;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.trash {
+    border-radius: 6px;
+    border: 1px #E4E4E4 solid;
+    padding: 7px;
+}
